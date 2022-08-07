@@ -1,3 +1,7 @@
+# v0.2.0
+
+- [feat] Add cushing information.
+
 # v0.1.1
 
 - [fix] Icon screen.
