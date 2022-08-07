@@ -2,3 +2,4 @@
 
 - [feat] First commit. The app in react native.
 - [feat] Add home screen.
+- [feat] Add settings screen.
