@@ -1,3 +1,8 @@
+# v0.3.0
+
+- [style] Home improvement.
+- [feat] Add image in home screen.
+
 # v0.2.0
 
 - [feat] Add cushing information.

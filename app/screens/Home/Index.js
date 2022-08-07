@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
-import {Text, StyleSheet, View, ImageBackground} from 'react-native';
+import {Text, StyleSheet, View, ImageBackground, Image} from 'react-native';
 import {useTranslation} from 'react-i18next';
 
 const styles = StyleSheet.create({
@@ -21,9 +21,14 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'white',
-    marginTop: 10,
+    marginRight: 10,
     marginLeft: 10,
     fontSize: 14,
+  },
+  image: {
+    width: 300,
+    resizeMode: 'center',
+    height: 300,
   },
 });
 
@@ -35,6 +40,10 @@ function HomeScreen(props) {
     <ImageBackground style={styles.background}>
       <View style={styles.view}>
         <Text style={styles.title}>Cushing</Text>
+        <Image
+          style={styles.image}
+          source={require('../../../assets/images/Cushing.jpg')}
+        />
         <Text style={styles.text}>{t('navigate:description')}</Text>
       </View>
     </ImageBackground>
