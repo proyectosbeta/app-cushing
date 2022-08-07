@@ -1,14 +1,13 @@
 /* eslint-disable react/jsx-filename-extension */
-import * as React from 'react';
-import { Text, View } from 'react-native';
+import React from 'react';
+import {View} from 'react-native';
 
-// eslint-disable-next-line no-unused-vars
-function SettingsScreen(props) {
-    return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Settings!</Text>
-        </View>
-    );
+import Selector from '../../components/LanguageSelector';
+
+export default function SettingsScreen() {
+  return (
+    <View style={{flex: 1, backgroundColor: '#fff'}}>
+      <Selector />
+    </View>
+  );
 }
-
-export default SettingsScreen;
