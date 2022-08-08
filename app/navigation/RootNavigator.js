@@ -5,7 +5,7 @@ import {Icon} from 'react-native-elements';
 import {useTranslation} from 'react-i18next';
 
 import HomeScreen from '../screens/Home/Index';
-import SettingsScreen from '../screens/Settings/Index';
+import SettingScreen from '../screens/Setting/Index';
 
 const Tab = createBottomTabNavigator();
 
@@ -31,10 +31,10 @@ export default function RootNavigator() {
           }}
         />
         <Tab.Screen
-          name="Settings"
-          component={SettingsScreen}
+          name="Setting"
+          component={SettingScreen}
           options={{
-            tabBarLabel: t('navigate:settings'),
+            tabBarLabel: t('navigate:setting'),
             tabBarIcon: ({color, size}) => (
               <Icon name="settings" color={color} size={size} />
             ),

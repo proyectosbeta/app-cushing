@@ -1,9 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
-import {Text, StyleSheet, View, ImageBackground} from 'react-native';
+import {Text, StyleSheet, View, ImageBackground, Image} from 'react-native';
 import {useTranslation} from 'react-i18next';
-
-import Menu from '../../components/Menu';
 
 const styles = StyleSheet.create({
   background: {
@@ -39,19 +37,21 @@ const styles = StyleSheet.create({
 });
 
 // eslint-disable-next-line no-unused-vars
-function HomeScreen(props) {
-  global.currentScreenIndex = 'Home';
-  const {navigation} = props;
-  // const {t} = useTranslation();
+const DescriptionScreen = props => {
+  const {t} = useTranslation();
 
   return (
     <ImageBackground style={styles.background}>
       <View style={styles.view}>
         <Text style={styles.title}>Cushing</Text>
-        <Menu navigation={{navigation}} />
+        <Image
+          style={styles.image}
+          source={require('../../../assets/images/Cushing.jpg')}
+        />
+        <Text style={styles.text}>{t('navigate:description')}</Text>
       </View>
     </ImageBackground>
   );
-}
+};
 
-export default HomeScreen;
+export default DescriptionScreen;

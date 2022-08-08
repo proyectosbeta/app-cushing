@@ -1,3 +1,7 @@
+# v0.4.0
+
+- [feat] Menu main.
+
 # v0.3.1
 
 - [style] Home improvement.
