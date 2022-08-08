@@ -1,6 +1,7 @@
 # v0.5.0
 
 - [feat] Add sonarqube.
+- [build] Update package.json file. 
 
 # v0.4.1
 
