@@ -1,3 +1,7 @@
+# v0.5.0
+
+- [feat] Add sonarqube.
+
 # v0.4.1
 
 - [fix] Description screen.

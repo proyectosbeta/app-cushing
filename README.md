@@ -59,7 +59,7 @@ The apk is in android/app/build/outputs/apk/release/
 
 ```bash
 docker pull sonarqube
-docker run -d --name sonarqube -p 9100:9000 -p 9092:9092 sonarqube
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
 ```
 
 ##### Web access
@@ -85,7 +85,7 @@ docker pull newtmitch/sonar-scanner
 Execute
 
 ```bash
-docker run -ti -v /home/proyectosbeta/repositorioGit/app-cushing/usr/src --link sonarqube newtmitch/sonar-scanner
+docker run -ti -v /home/proyectosbeta/repositoriosGit/app-cushing:/usr/src --link sonarqube newtmitch/sonar-scanner
 ```
 
 ##### Microsoft Windows
