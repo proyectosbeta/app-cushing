@@ -13,8 +13,8 @@ import dataMenu from './DataMenu';
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    // marginTop: 40,
+    flex: 1,
+    marginTop: 10,
     backgroundColor: '#fff',
   },
   list: {
@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   listContainer: {
     alignItems: 'center',
   },
+
   /******** card **************/
   card: {
     shadowColor: '#474747',
@@ -33,7 +34,6 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.37,
     shadowRadius: 7.49,
-
     elevation: 12,
     marginVertical: 20,
     marginHorizontal: 40,
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
 
 const clickEventListener = (navigation, item) => {
   const screen = item.screen;
-  
+
   navigation.navigate(screen);
 };
 

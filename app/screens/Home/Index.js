@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
 import {Text, StyleSheet, View, ImageBackground} from 'react-native';
-import {useTranslation} from 'react-i18next';
 
 import Menu from '../../components/Menu';
 
@@ -9,8 +8,7 @@ const styles = StyleSheet.create({
   background: {
     with: '100%',
     height: '100%',
-    // backgroundColor: '#465f7e',
-    backgroundColor: '#FFF',
+    backgroundColor: '#fff',
   },
   view: {
     flex: 1,
@@ -23,14 +21,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     marginBottom: 20,
   },
-  text: {
-    color: 'white',
-    // marginTop: 10,
-    // marginRight: 10,
-    // marginLeft: 10,
-    // marginBottom: 10,
-    fontSize: 14,
-  },
   image: {
     width: 300,
     resizeMode: 'center',
@@ -39,10 +29,9 @@ const styles = StyleSheet.create({
 });
 
 // eslint-disable-next-line no-unused-vars
-function HomeScreen(props) {
+const HomeScreen = props => {
   global.currentScreenIndex = 'Home';
   const {navigation} = props;
-  // const {t} = useTranslation();
 
   return (
     <ImageBackground style={styles.background}>
@@ -52,6 +41,6 @@ function HomeScreen(props) {
       </View>
     </ImageBackground>
   );
-}
+};
 
 export default HomeScreen;

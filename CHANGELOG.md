@@ -1,3 +1,7 @@
+# v0.4.1
+
+- [fix] Description screen.
+
 # v0.4.0
 
 - [feat] Menu main.

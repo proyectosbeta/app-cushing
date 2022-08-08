@@ -7,26 +7,15 @@ const styles = StyleSheet.create({
   background: {
     with: '100%',
     height: '100%',
-    // backgroundColor: '#465f7e',
-    backgroundColor: '#FFF',
+    backgroundColor: '#fff',
   },
   view: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  title: {
-    color: 'black',
-    fontWeight: 'bold',
-    fontSize: 30,
-    marginBottom: 20,
-  },
   text: {
-    color: 'white',
-    // marginTop: 10,
-    // marginRight: 10,
-    // marginLeft: 10,
-    // marginBottom: 10,
+    color: '#000',
     fontSize: 14,
   },
   image: {
@@ -43,7 +32,6 @@ const DescriptionScreen = props => {
   return (
     <ImageBackground style={styles.background}>
       <View style={styles.view}>
-        <Text style={styles.title}>Cushing</Text>
         <Image
           style={styles.image}
           source={require('../../../assets/images/Cushing.jpg')}
