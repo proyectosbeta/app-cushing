@@ -2,14 +2,14 @@ let state = {
   data: [
     {
       id: 1,
-      title: 'Descripción',
+      title: 'description',
       screen: 'Description',
       color: '#FF69B4',
       image: 'https://img.icons8.com/color/70/000000/name.png',
     },
     {
       id: 2,
-      title: 'Síntomas',
+      title: 'symptom',
       screen: 'Symptom',
       color: '#87CEEB',
       image:
@@ -17,7 +17,7 @@ let state = {
     },
     {
       id: 3,
-      title: 'Configuraciones',
+      title: 'setting',
       screen: 'Setting',
       color: '#4682B4',
       image:

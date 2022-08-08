@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {useTranslation} from 'react-i18next';
 
 import HomeScreen from '../screens/Home/Index';
 import DescriptionScreen from '../screens/Description/Index';
@@ -9,7 +10,9 @@ import SettingScreen from '../screens/Setting/Index';
 
 const Stack = createNativeStackNavigator();
 
-export default function StackNavigator() {
+const StackNavigator = () => {
+  const {t} = useTranslation();
+
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -29,21 +32,21 @@ export default function StackNavigator() {
           name="Home"
           component={HomeScreen}
           options={{
-            title: 'Home',
+            title: t('navigate:home:title'),
           }}
         />
         <Stack.Screen
           name="Description"
           component={DescriptionScreen}
           options={{
-            title: 'Description',
+            title: t('navigate:description:title'),
           }}
         />
         <Stack.Screen
           name="Symptom"
           component={SymptomScreen}
           options={{
-            title: 'Symptom',
+            title: t('navigate:symptom:title'),
           }}
         />
         <Stack.Screen
@@ -56,4 +59,6 @@ export default function StackNavigator() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default StackNavigator;

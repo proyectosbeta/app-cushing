@@ -8,6 +8,7 @@ import {
   ScrollView,
   FlatList,
 } from 'react-native';
+import {useTranslation} from 'react-i18next';
 
 import dataMenu from './DataMenu';
 
@@ -88,7 +89,7 @@ const clickEventListener = (navigation, item) => {
 
 const Menu = props => {
   const {navigation} = props.navigation;
-  // const {t} = useTranslation();
+  const {t} = useTranslation();
 
   return (
     <ScrollView horizontal={true} style={{width: '100%'}}>
@@ -117,7 +118,7 @@ const Menu = props => {
                   <View
                     style={{alignItems: 'center', justifyContent: 'center'}}>
                     <Text style={[styles.title, {color: item.color}]}>
-                      {item.title}
+                      {t(`navigate:${item.title}:title`)}
                     </Text>
                   </View>
                 </View>

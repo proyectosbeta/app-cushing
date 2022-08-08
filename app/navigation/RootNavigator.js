@@ -24,7 +24,7 @@ export default function RootNavigator() {
           name="Home"
           component={HomeScreen}
           options={{
-            tabBarLabel: t('navigate:home'),
+            tabBarLabel: t('navigate:home:title'),
             tabBarIcon: ({color, size}) => (
               <Icon name="home" color={color} size={size} />
             ),

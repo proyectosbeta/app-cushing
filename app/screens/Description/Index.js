@@ -36,7 +36,7 @@ const DescriptionScreen = props => {
           style={styles.image}
           source={require('../../../assets/images/Cushing.jpg')}
         />
-        <Text style={styles.text}>{t('navigate:description')}</Text>
+        <Text style={styles.text}>{t('navigate:description:description')}</Text>
       </View>
     </ImageBackground>
   );
