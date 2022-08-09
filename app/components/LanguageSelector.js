@@ -21,7 +21,7 @@ const Selector = () => {
     <View style={styles.container}>
       <View style={styles.row}>
         <Text style={styles.title}>{t('common:languageSelector')}</Text>
-        <Ionicons color="#444" size={28} name="ios-language-outline" />
+        <Ionicons color="#444" size={28} name="language" />
       </View>
       {LANGUAGES.map(language => {
         const selectedLanguage = language.code === selectedLanguageCode;

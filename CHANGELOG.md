@@ -1,6 +1,7 @@
 # v0.6.1
 
-- [fix] Translate settign screen.
+- [fix] Translate setting screen.
+- [fix] Icon language.
 
 # v0.6.0
 
