@@ -1,9 +1,6 @@
 # v0.6.0
 
 - [feat] Add Symptom screen.
-
-# v0.5.1
-
 - [build] Update package.json file.
 
 # v0.5.0
