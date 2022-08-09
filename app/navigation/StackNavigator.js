@@ -53,7 +53,7 @@ const StackNavigator = () => {
           name="Setting"
           component={SettingScreen}
           options={{
-            title: 'Setting',
+            title: t('navigate:setting:title'),
           }}
         />
       </Stack.Navigator>
