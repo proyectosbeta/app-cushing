@@ -1,7 +1,19 @@
 {
   "name": "appCushing",
+  "description": "App Cushing",
   "version": "0.5.0",
   "private": true,
+  "main": "index.js",
+  "author": {
+    "name": "Proyectos Beta",
+    "email": "josego85@gmail.com",
+    "url": "https://proyectosbeta.net/"
+  },
+  "license": "GPlv3",
+  "bugs": {
+    "url": "https://github.com/proyectosbeta/app-cushing/issues"
+  },
+  "homepage": "https://github.com/proyectosbeta/app-cushing/blob/main/README.md",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
