@@ -1,3 +1,7 @@
+# v0.6.1
+
+- [fix] Translate settign screen.
+
 # v0.6.0
 
 - [feat] Add Symptom screen.
