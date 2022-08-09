@@ -17,5 +17,16 @@ export default {
   symptom: {
     title: 'Symptoms',
     description: 'Symptoms',
+    items: [
+      'Weight gain and fatty tissue deposits, particularly ' +
+        'around the midsection and upper back, in the face ' +
+        '(moon face), and between the shoulders (buffalo ' +
+        'neck)',
+      'Pink or purple striae gravidarum on the skin of ' +
+        'the abdomen, thighs, breasts, and arms.',
+      'Thin and fragile skin, prone to bruising',
+      'Slow healing of wounds, insect bites and infections',
+      'Acne',
+    ],
   },
 };

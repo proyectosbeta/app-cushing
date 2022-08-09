@@ -17,5 +17,16 @@ export default {
   symptom: {
     title: 'Symptome',
     description: 'Symptome',
+    items: [
+      'Gewichtszunahme und Fettgewebsablagerungen, ' +
+        'insbesondere um die Körpermitte und den oberen ' +
+        'Rücken, im Gesicht (Mondgesicht) und zwischen ' +
+        'den Schultern (Büffelhals)',
+      'Rosa oder violette Striae gravidarum auf der Haut ' +
+        ' von Bauch, Oberschenkeln, Brüsten und Armen.',
+      'Dünne und empfindliche Haut, die zu Blutergüssen neigt',
+      'Langsame Heilung von Wunden, Insektenstichen und Infektionen',
+      'Akne',
+    ],
   },
 };
