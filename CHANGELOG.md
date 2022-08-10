@@ -2,6 +2,7 @@
 
 - [fix] Translate setting screen.
 - [fix] Icon language.
+- [feat] Add app icon.
 
 # v0.6.0
 
