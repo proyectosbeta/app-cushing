@@ -4,6 +4,7 @@
 
 - [docs] Update readme file.
 - [docs] Update changelog file.
+- [build] Update package.json file.
 
 ## v0.6.1
 
