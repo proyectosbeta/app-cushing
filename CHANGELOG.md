@@ -1,3 +1,7 @@
+# v0.7.0
+
+- [docs] Update readme file.
+
 # v0.6.1
 
 - [fix] Translate setting screen.

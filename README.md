@@ -4,7 +4,7 @@ An app for cushing's disease
 
 # Tecnologies
 
-- React 18.0.0
+- React 18.2.0
 - React Native 0.69.4
 - Yarn 1.22.19
 - NodeJS v14.20.0
@@ -19,7 +19,7 @@ One terminal:
 
 ```bash
 yarn install
-npx react-native start
+npx react-native start --reset-cache
 ```
 
 Another terminal:
