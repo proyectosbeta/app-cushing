@@ -5,6 +5,7 @@
 - [docs] Update readme file.
 - [docs] Update changelog file.
 - [build] Update package.json file.
+- [refactor] Translations.
 
 ## v0.6.1
 

@@ -32,28 +32,28 @@ const StackNavigator = () => {
           name="Home"
           component={HomeScreen}
           options={{
-            title: t('navigate:home:title'),
+            title: t('navigate:home'),
           }}
         />
         <Stack.Screen
           name="Description"
           component={DescriptionScreen}
           options={{
-            title: t('navigate:description:title'),
+            title: t('navigate:description'),
           }}
         />
         <Stack.Screen
           name="Symptom"
           component={SymptomScreen}
           options={{
-            title: t('navigate:symptom:title'),
+            title: t('navigate:symptom'),
           }}
         />
         <Stack.Screen
           name="Setting"
           component={SettingScreen}
           options={{
-            title: t('navigate:setting:title'),
+            title: t('navigate:setting'),
           }}
         />
       </Stack.Navigator>

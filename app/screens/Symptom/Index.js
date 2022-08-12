@@ -22,11 +22,11 @@ const styles = StyleSheet.create({
 
 const SymptomScreen = () => {
   const {t} = useTranslation();
-  const items = t('navigate:symptom:items', {returnObjects: true});
+  const items = t('common:symptom:items', {returnObjects: true});
 
   return (
     <View style={styles.view}>
-      <Text style={styles.title}>{t('navigate:symptom:title')}</Text>
+      <Text style={styles.title}>{t('navigate:symptom')}</Text>
       {items.map((item, index) => {
         return (
           <View key={index}>
