@@ -1,5 +1,9 @@
 # Release Notes
 
+## v0.8.0
+
+- [build] Update package.json file.
+
 ## v0.7.0
 
 - [docs] Update readme file.
