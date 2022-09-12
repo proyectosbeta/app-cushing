@@ -8,7 +8,7 @@ An app for cushing's disease
 - React Native 0.69.5
 - Yarn 1.22.19
 - NodeJS v14.20.0
-- Npm 8.16.0
+- Npm 8.19.1
 - OpenJDK 17.0.4
 - Gradle 7.3.3
 - Sonarqube 9.5.XX
