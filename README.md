@@ -2,18 +2,18 @@
 
 An app for cushing's disease
 
-# Tecnologies
+## Tecnologies
 
 - React 18.2.0
 - React Native 0.70.1
 - Yarn 1.22.19
-- NodeJS v14.20.0
+- NodeJS v14.20.1
 - Npm 8.19.1
 - OpenJDK 17.0.4
 - Gradle 7.3.3
 - Sonarqube 9.5.XX
 
-# Development
+## Development
 
 One terminal:
 
@@ -29,13 +29,13 @@ cd android && ./gradlew clean && cd ../
 npx react-native run-android
 ```
 
-# Developer debug
+### Developer debug
 
 ```bash
 cd android && ./gradlew assembleRelease && cd ../
 ```
 
-# Production
+## Production
 
 At the root of the project.
 
@@ -43,7 +43,7 @@ At the root of the project.
 npx react-native run-android --variant=release
 ```
 
-## APK path
+### APK path
 
 The apk is in android/app/build/outputs/apk/release/
 
