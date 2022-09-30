@@ -3,6 +3,7 @@
 ## v0.7.1
 
 - [build] Update package.json file.
+- [docs] Update readme file.
 
 ## v0.7.0
 
