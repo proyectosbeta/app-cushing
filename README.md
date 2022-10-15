@@ -1,14 +1,14 @@
 # Description
 
-An app for cushing's disease
+An app for cushing's disease.
 
 ## Tecnologies
 
 - React 18.2.0
-- React Native 0.70.1
+- React Native 0.70.3
 - Yarn 1.22.19
 - NodeJS v14.20.1
-- Npm 8.19.1
+- Npm 8.19.2
 - OpenJDK 17.0.4
 - Gradle 7.3.3
 - Sonarqube 9.5.XX
