@@ -5,7 +5,7 @@ An app for cushing's disease.
 ## Tecnologies
 
 - React 18.2.0
-- React Native 0.70.3
+- React Native 0.70.4
 - Yarn 1.22.19
 - NodeJS v14.20.1
 - Npm 8.19.2
