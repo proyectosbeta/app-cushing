@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.9.0
+
+- [build] React Native to 0.70.5
+- [build] Update package.json file.
+- [docs] Update readme file.
+
 ## v0.8.0
 
 - [build] Update package.json file.
