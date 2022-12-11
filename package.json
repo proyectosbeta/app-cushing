@@ -1,7 +1,7 @@
 {
   "name": "appCushing",
   "description": "App Cushing",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "main": "index.js",
   "author": {
@@ -24,13 +24,13 @@
   "dependencies": {
     "@babel/plugin-proposal-export-namespace-from": "7.18.9",
     "@react-native-async-storage/async-storage": "1.17.11",
-    "@react-navigation/bottom-tabs": "6.4.3",
-    "@react-navigation/native": "6.0.16",
-    "@react-navigation/native-stack": "6.9.4",
-    "@react-navigation/stack": "6.3.7",
-    "i18next": "22.0.6",
+    "@react-navigation/bottom-tabs": "6.5.0",
+    "@react-navigation/native": "6.1.0",
+    "@react-navigation/native-stack": "6.9.5",
+    "@react-navigation/stack": "6.3.8",
+    "i18next": "22.3.0",
     "react": "18.2.0",
-    "react-i18next": "12.0.0",
+    "react-i18next": "12.1.1",
     "react-native": "0.70.6",
     "react-native-elements": "3.4.2",
     "react-native-gesture-handler": "2.8.0",
