@@ -3,9 +3,9 @@ import React from 'react';
 import StackNavigator from './app/navigation/StackNavigator';
 import './app/constants/IMLocalize';
 
-const App: () => Node = () => {
+function App(): JSX.Element {
   // return <RootNavigator />;
   return <StackNavigator />;
-};
+}
 
 export default App;

@@ -1,14 +1,9 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
-import {Text, StyleSheet, View, ImageBackground, Image} from 'react-native';
+import {Text, StyleSheet, View, Image} from 'react-native';
 import {useTranslation} from 'react-i18next';
 
 const styles = StyleSheet.create({
-  background: {
-    with: '100%',
-    height: '100%',
-    backgroundColor: '#fff',
-  },
   view: {
     flex: 1,
     justifyContent: 'center',
@@ -30,7 +25,6 @@ const DescriptionScreen = props => {
   const {t} = useTranslation();
 
   return (
-    <ImageBackground style={styles.background}>
       <View style={styles.view}>
         <Image
           style={styles.image}
@@ -38,7 +32,7 @@ const DescriptionScreen = props => {
         />
         <Text style={styles.text}>{t('common:description:description')}</Text>
       </View>
-    </ImageBackground>
+
   );
 };
 

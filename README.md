@@ -5,12 +5,12 @@ An app for cushing's disease.
 ## Tecnologies
 
 - React 18.2.0
-- React Native 0.70.6
+- React Native 0.71.1
 - Yarn 1.22.19
-- NodeJS v14.20.1
-- Npm 8.19.2
-- OpenJDK 17.0.4
-- Gradle 7.3.3
+- NodeJS v14.21.2
+- Npm 9.3.1
+- OpenJDK 17.0.5 2022-10-18
+- Gradle 7.3.1
 - Sonarqube 9.5.XX
 
 ## Development
@@ -18,7 +18,7 @@ An app for cushing's disease.
 One terminal:
 
 ```bash
-yarn install
+npm i
 npx react-native start --reset-cache
 ```
 
