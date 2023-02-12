@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.12.0
+
+- [build] React Native from 0.71.1 to 0.71.2
+- [build] Update package.json file.
+
 ## v0.11.0
 
 - [build] React Native from 0.70.6 to 0.71.1
